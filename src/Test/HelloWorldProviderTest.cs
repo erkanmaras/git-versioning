@@ -9,7 +9,7 @@ namespace GitVersioning
         [Fact]
         public void Test1()
         {
-            Assert.Equal("Hello World!",new HelloWorldProvider().Provide());
+            Assert.Equal("Maraba Televole!",new HelloWorldProvider().Provide());
         }
     }
 }
