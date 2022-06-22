@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Lib;
 
 namespace App
@@ -7,7 +7,9 @@ namespace App
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(new HelloWorldProvider().Provide());
+            Console.WriteLine(
+                new HelloWorldProvider().Provide()
+            );
         }
     }
 }
